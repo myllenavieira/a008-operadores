@@ -1,5 +1,5 @@
-const  numero1 = prompt('digite o primeiro numero');
-const numero2 = prompt('digite o segundo numero');
+const  numero1 = + prompt('digite o primeiro numero');
+const numero2 = + prompt('digite o segundo numero');
 console.log(numero1, numero2);
 console.log("O primeiro número é maior que o segundo?", numero1 > numero2);
 console.log("O primeiro número é igual ao segundo?", numero1 === numero2);
